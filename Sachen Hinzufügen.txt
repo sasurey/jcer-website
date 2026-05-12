@@ -1,0 +1,14 @@
+Veranstaltungen hinzufügen für HTML Code bei index.html:     
+
+Genauer -> Innerhalb des Divs: <div class="event-list">
+
+	<article class="event-card">
+            <div class="event-date">
+              <span class="day">04</span>
+              <span class="month">Jun</span>
+            </div>
+            <div class="event-info">
+              <h3>Open Community Evening</h3>
+              <p>19:00 Uhr · Student Hub</p>
+            </div>
+          </article>

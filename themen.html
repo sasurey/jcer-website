@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JCER – Themen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="brand" aria-label="Startseite">
+        <div class="brand-logo">Logo</div>
+        <div class="brand-text">
+          <span class="brand-title">Junior Center for Economic Research</span>
+          <span class="brand-subtitle">Young Research. Real Impact.</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="index.html">Startseite</a>
+        <a href="themen.html" class="active">Themen</a>
+        <a href="veranstaltungen.html">Veranstaltungen</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="topics-main">
+    <section class="topics-overview-section">
+      <div class="container">
+        <div class="topics-section-intro">
+          <p class="section-label">Unsere Themen</p>
+          <h1>Vier große Themenblöcke für eure Research-Arbeit</h1>
+          <p>
+            Diese Section ist so aufgebaut, dass ihr eure finalen Beschreibungstexte später ganz einfach
+            einsetzen könnt. Aktuell sind stilvolle Platzhalter hinterlegt, die ihr 1:1 ersetzen könnt.
+          </p>
+        </div>
+
+        <div class="topics-overview-grid">
+          <article class="topics-topic-card">
+            <div class="topics-topic-head">
+              <span class="topics-topic-number">01</span>
+              <span class="topics-topic-tag">Finance</span>
+            </div>
+            <h2>Finance</h2>
+            <p>
+              Hier könnt ihr euren finalen Beschreibungstext zum Themenblock Finance einsetzen.
+              Die Karte eignet sich für Schwerpunkte wie Kapitalmärkte, Banking, Corporate Finance
+              oder marktbezogene Fragestellungen.
+            </p>
+            <div class="topics-topic-pills">
+              <span>Markets</span>
+              <span>Banking</span>
+              <span>Asset Pricing</span>
+            </div>
+          </article>
+
+          <article class="topics-topic-card">
+            <div class="topics-topic-head">
+              <span class="topics-topic-number">02</span>
+              <span class="topics-topic-tag">Macroeconomics</span>
+            </div>
+            <h2>Macroeconomics</h2>
+            <p>
+              Hier könnt ihr euren finalen Beschreibungstext zu Macroeconomics einfügen.
+              Gut geeignet für Themen rund um Konjunktur, Inflation, Geldpolitik,
+              Wachstum, Finanzpolitik und internationale wirtschaftspolitische Entwicklungen.
+            </p>
+            <div class="topics-topic-pills">
+              <span>Inflation</span>
+              <span>Growth</span>
+              <span>Policy</span>
+            </div>
+          </article>
+
+          <article class="topics-topic-card">
+            <div class="topics-topic-head">
+              <span class="topics-topic-number">03</span>
+              <span class="topics-topic-tag">Microeconomics</span>
+            </div>
+            <h2>Microeconomics</h2>
+            <p>
+              Hier könnt ihr euren finalen Beschreibungstext zu Microeconomics hinterlegen.
+              Die Karte passt für Forschungsinteressen zu Haushalten, Unternehmen, Wettbewerb,
+              Anreizen, Märkten und individuellen Entscheidungsprozessen.
+            </p>
+            <div class="topics-topic-pills">
+              <span>Households</span>
+              <span>Competition</span>
+              <span>Behavior</span>
+            </div>
+          </article>
+
+          <article class="topics-topic-card">
+            <div class="topics-topic-head">
+              <span class="topics-topic-number">04</span>
+              <span class="topics-topic-tag">Statistics &amp; Econometrics</span>
+            </div>
+            <h2>Statistics and Econometrics</h2>
+            <p>
+              Hier könnt ihr euren finalen Beschreibungstext zu Statistics and Econometrics einbauen.
+              Die Karte eignet sich für Methodenkompetenz, Datenauswertung, empirische Designs,
+              kausale Identifikation und quantitative Projektarbeit.
+            </p>
+            <div class="topics-topic-pills">
+              <span>Methods</span>
+              <span>Data</span>
+              <span>Inference</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="topics-projects-section">
+      <div class="container">
+        <div class="topics-projects-shell">
+          <div class="topics-section-intro topics-section-intro-compact">
+            <p class="section-label">Researchprojekte</p>
+            <h2>Projekte filtern, durchsuchen und intern ergänzen</h2>
+            <p>
+              Die Suche funktioniert direkt auf der Seite. Der Upload-Bereich ist als Admin-Workflow im Frontend vorbereitet.
+              Eine wirklich sichere Beschränkung auf nur dich braucht später zusätzlich Login und Backend.
+            </p>
+          </div>
+
+          <div class="topics-projects-layout">
+            <aside class="topics-project-tools">
+              <div class="topics-tool-card">
+                <label class="topics-tool-label" for="projectSearch">Suche</label>
+                <input
+                  id="projectSearch"
+                  class="topics-search-input"
+                  type="search"
+                  placeholder="Projekt, Thema oder Schlagwort suchen"
+                />
+              </div>
+
+              <div class="topics-tool-card">
+                <p class="topics-tool-label">Filter</p>
+                <div class="topics-filter-group" role="group" aria-label="Projektfilter">
+                  <button type="button" class="topics-filter-chip is-active" data-filter="all">Alle</button>
+                  <button type="button" class="topics-filter-chip" data-filter="finance">Finance</button>
+                  <button type="button" class="topics-filter-chip" data-filter="macroeconomics">Macroeconomics</button>
+                  <button type="button" class="topics-filter-chip" data-filter="microeconomics">Microeconomics</button>
+                  <button type="button" class="topics-filter-chip" data-filter="statistics-econometrics">Statistics &amp; Econometrics</button>
+                </div>
+              </div>
+
+              <div class="topics-upload-card">
+                <p class="topics-tool-label">Admin Upload</p>
+                <h3>Dateien und neue Projekte ergänzen</h3>
+                <p>
+                  Du kannst hier lokal einen neuen Projekteintrag und eine Datei anlegen.
+                  Das ist eine Frontend-Demo und noch kein geschütztes Live-Upload-System.
+                </p>
+
+                <form id="projectUploadForm" class="topics-upload-form">
+                  <div class="topics-form-field">
+                    <label for="projectTitle">Projekttitel</label>
+                    <input id="projectTitle" name="projectTitle" type="text" placeholder="z. B. Market Sentiment and Asset Pricing" required />
+                  </div>
+
+                  <div class="topics-form-grid">
+                    <div class="topics-form-field">
+                      <label for="projectTopic">Themenblock</label>
+                      <select id="projectTopic" name="projectTopic" required>
+                        <option value="finance">Finance</option>
+                        <option value="macroeconomics">Macroeconomics</option>
+                        <option value="microeconomics">Microeconomics</option>
+                        <option value="statistics-econometrics">Statistics &amp; Econometrics</option>
+                      </select>
+                    </div>
+
+                    <div class="topics-form-field">
+                      <label for="projectFile">Datei anhängen</label>
+                      <input id="projectFile" name="projectFile" type="file" />
+                    </div>
+                  </div>
+
+                  <div class="topics-form-field">
+                    <label for="projectDescription">Kurzbeschreibung</label>
+                    <textarea id="projectDescription" name="projectDescription" rows="4" placeholder="Kurze Beschreibung des Projekts" required></textarea>
+                  </div>
+
+                  <button type="submit" class="primary-button topics-upload-button">Projekt lokal hinzufügen</button>
+                </form>
+
+                <p class="topics-upload-note">
+                  Hinweis: Auf einer rein statischen Website lässt sich nicht sicher verhindern,
+                  dass auch andere die Upload-Buttons sehen. Für echte Admin-Rechte braucht ihr
+                  später ein Backend.
+                </p>
+              </div>
+            </aside>
+
+            <div class="topics-project-results">
+              <div class="topics-project-results-head">
+                <p class="topics-results-label">Projektliste</p>
+                <span id="projectCount" class="topics-results-count">6 Projekte</span>
+              </div>
+
+              <div id="projectList" class="topics-project-list">
+                <article class="topics-project-card" data-category="finance" data-search="finance market sentiment asset pricing kapitalmarkt erwartungen">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Finance</span>
+                    <span class="topics-project-status">Aktiv</span>
+                  </div>
+                  <h3>Market Sentiment and Asset Pricing</h3>
+                  <p>
+                    Exploratives Projekt zu Markterwartungen, Renditen und der Frage,
+                    wie sich informationsgetriebene Preisbewegungen widerspiegeln.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Sentiment</span>
+                    <span>Capital Markets</span>
+                    <span>Asset Pricing</span>
+                  </div>
+                </article>
+
+                <article class="topics-project-card" data-category="macroeconomics" data-search="macroeconomics inflation expectations euro area geldpolitik survey data">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Macroeconomics</span>
+                    <span class="topics-project-status">Skizze</span>
+                  </div>
+                  <h3>Inflation Expectations in the Euro Area</h3>
+                  <p>
+                    Datengestützte Untersuchung von Erwartungsbildung, Preisdynamik und möglichen
+                    Unterschieden zwischen verschiedenen Haushaltsgruppen.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Inflation</span>
+                    <span>Survey Data</span>
+                    <span>Euro Area</span>
+                  </div>
+                </article>
+
+                <article class="topics-project-card" data-category="microeconomics" data-search="microeconomics consumer switching costs competition verhalten märkte">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Microeconomics</span>
+                    <span class="topics-project-status">Konzeption</span>
+                  </div>
+                  <h3>Consumer Switching Costs and Competition</h3>
+                  <p>
+                    Projektidee zu Wechselkosten, Marktstruktur und der Frage,
+                    wie Wettbewerbsintensität das Verhalten von Konsumentinnen und Konsumenten beeinflusst.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Competition</span>
+                    <span>Consumer Micro</span>
+                    <span>Market Design</span>
+                  </div>
+                </article>
+
+                <article class="topics-project-card" data-category="statistics-econometrics" data-search="statistics econometrics policy evaluation methods panel data causal inference">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Statistics &amp; Econometrics</span>
+                    <span class="topics-project-status">Methoden</span>
+                  </div>
+                  <h3>Panel Methods for Policy Evaluation</h3>
+                  <p>
+                    Methodischer Fokus auf Paneldaten, Identifikation und robuste Schätzverfahren
+                    für wirtschaftspolitische Fragestellungen.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Panel Data</span>
+                    <span>Causality</span>
+                    <span>Methods</span>
+                  </div>
+                </article>
+
+                <article class="topics-project-card" data-category="finance" data-search="finance banking liquidity risk raising interest rates kreditvergabe banken">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Finance</span>
+                    <span class="topics-project-status">Neu</span>
+                  </div>
+                  <h3>Bank Lending under Rising Interest Rates</h3>
+                  <p>
+                    Analyse möglicher Zinsanpassungen zwischen Zentralbank, Kreditvergabe,
+                    Bilanzstruktur und Finanzierungsbedingungen im Bankensektor.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Banking</span>
+                    <span>Credit</span>
+                    <span>Rates</span>
+                  </div>
+                </article>
+
+                <article class="topics-project-card" data-category="microeconomics" data-search="microeconomics labor household spending policy einkommen arbeit">
+                  <div class="topics-project-meta">
+                    <span class="topics-project-category">Microeconomics</span>
+                    <span class="topics-project-status">Entwurf</span>
+                  </div>
+                  <h3>Labor Market Frictions and Household Incidence</h3>
+                  <p>
+                    Projekt zu Verteilungseffekten, Arbeitsanreizen und möglichen Effekten
+                    von Reformen auf unterschiedliche Haushalts- und Einkommensgruppen.
+                  </p>
+                  <div class="topics-project-tags">
+                    <span>Labor</span>
+                    <span>Households</span>
+                    <span>Policy</span>
+                  </div>
+                </article>
+              </div>
+
+              <div id="projectEmptyState" class="topics-empty-state" hidden>
+                <h3>Keine Treffer gefunden</h3>
+                <p>Versuche es mit einem anderen Suchbegriff oder wähle einen anderen Filter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="topics-impressum-section">
+      <footer class="site-footer" id="impressum-block">
+        <div class="container footer-content">
+          <div>
+            <h2>Impressum</h2>
+            <p>
+              Studentische Initiative Mustername<br />
+              Musterstraße 12<br />
+              12345 Musterstadt
+            </p>
+          </div>
+
+          <div>
+            <p><strong>E-Mail:</strong> kontakt@initiative.de</p>
+            <p><strong>Vertreten durch:</strong> Vorname Nachname</p>
+            <p><strong>Hinweis:</strong> Diese Angaben sind Platzhalter und sollten rechtlich korrekt ersetzt werden.</p>
+
+            <div class="footer-socials">
+              <a
+                href="#"
+                class="footer-social-link"
+                aria-label="LinkedIn öffnen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="footer-social-icon footer-social-linkedin">in</span>
+              </a>
+
+              <a
+                href="#"
+                class="footer-social-link"
+                aria-label="Instagram öffnen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="footer-social-icon footer-social-instagram">ig</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const searchInput = document.getElementById("projectSearch");
+      const filterButtons = document.querySelectorAll(".topics-filter-chip");
+      const projectCards = () => Array.from(document.querySelectorAll(".topics-project-card"));
+      const countElement = document.getElementById("projectCount");
+      const emptyState = document.getElementById("projectEmptyState");
+      const uploadForm = document.getElementById("projectUploadForm");
+      let activeFilter = "all";
+
+      function updateProjectView() {
+        const query = (searchInput.value || "").trim().toLowerCase();
+        let visibleCount = 0;
+
+        projectCards().forEach((card) => {
+          const category = card.dataset.category || "";
+          const haystack = `${card.dataset.search || ""} ${card.textContent || ""}`.toLowerCase();
+          const matchesFilter = activeFilter === "all" || category === activeFilter;
+          const matchesSearch = !query || haystack.includes(query);
+          const isVisible = matchesFilter && matchesSearch;
+
+          card.hidden = !isVisible;
+          if (isVisible) visibleCount += 1;
+        });
+
+        countElement.textContent = `${visibleCount} ${visibleCount === 1 ? "Projekt" : "Projekte"}`;
+        emptyState.hidden = visibleCount !== 0;
+      }
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          filterButtons.forEach((chip) => chip.classList.remove("is-active"));
+          button.classList.add("is-active");
+          activeFilter = button.dataset.filter;
+          updateProjectView();
+        });
+      });
+
+      searchInput.addEventListener("input", updateProjectView);
+
+      uploadForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const title = document.getElementById("projectTitle").value.trim();
+        const topic = document.getElementById("projectTopic").value;
+        const description = document.getElementById("projectDescription").value.trim();
+        const fileInput = document.getElementById("projectFile");
+        const fileName = fileInput.files[0] ? fileInput.files[0].name : "Datei später verlinken";
+
+        if (!title || !description) return;
+
+        const prettyCategoryMap = {
+          finance: "Finance",
+          macroeconomics: "Macroeconomics",
+          microeconomics: "Microeconomics",
+          "statistics-econometrics": "Statistics & Econometrics"
+        };
+
+        const article = document.createElement("article");
+        article.className = "topics-project-card";
+        article.dataset.category = topic;
+        article.dataset.search = `${title} ${description} ${prettyCategoryMap[topic]} ${fileName}`.toLowerCase();
+
+        article.innerHTML = `
+          <div class="topics-project-meta">
+            <span class="topics-project-category">${prettyCategoryMap[topic]}</span>
+            <span class="topics-project-status">Lokal hinzugefügt</span>
+          </div>
+          <h3>${title}</h3>
+          <p>${description}</p>
+          <div class="topics-project-tags">
+            <span>${fileName}</span>
+            <span>Neuer Eintrag</span>
+          </div>
+        `;
+
+        document.getElementById("projectList").prepend(article);
+        uploadForm.reset();
+        updateProjectView();
+      });
+
+      updateProjectView();
+    });
+  </script>
+</body>
+</html>
